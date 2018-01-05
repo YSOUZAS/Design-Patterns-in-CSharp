@@ -1,5 +1,6 @@
 ﻿using System;
-using Design_Patterns_in_CSharp.Adapter;
+using Design_Patterns_in_CSharp.Command;
+
 
 namespace Design_Patterns_in_CSharp
 {
