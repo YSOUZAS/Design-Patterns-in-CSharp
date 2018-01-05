@@ -26,6 +26,7 @@ Here are the implementations of the following design patterns in C# :
 
 ### Behavioral Patterns ###
 
+* [Strategy](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Strategy)
 <!--* [Chain of Responsibility](https://github.com/torokmark/design_patterns_in_typescript/tree/master/chain_of_responsibility)
 * [Command](https://github.com/torokmark/design_patterns_in_typescript/tree/master/command)
 * [Interpreter](https://github.com/torokmark/design_patterns_in_typescript/tree/master/interpreter)
