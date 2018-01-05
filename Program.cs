@@ -1,5 +1,5 @@
 ﻿using System;
-using Design_Patterns_in_CSharp.Strategy;
+using Design_Patterns_in_CSharp.Singleton;
 
 namespace Design_Patterns_in_CSharp
 {
@@ -7,8 +7,7 @@ namespace Design_Patterns_in_CSharp
     {
         public static void Main(string[] args)
         {
-            var DemoStrategy = new Demo();
-            DemoStrategy.Show();
+
         }
     }
 }

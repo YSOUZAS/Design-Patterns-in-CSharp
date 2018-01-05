@@ -36,9 +36,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\Strategy.cs" />
     <Compile Include="Strategy\Demo.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="Singleton\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
+    <Folder Include="Singleton\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

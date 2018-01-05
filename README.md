@@ -6,7 +6,8 @@ Here are the implementations of the following design patterns in C# :
 
 ### Creational ###
 
-<!--* [Singleton](https://github.com/torokmark/design_patterns_in_typescript/tree/master/singleton)
+[Singleton](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/singleton)
+<!--*
 * [Abstract Factory](https://github.com/torokmark/design_patterns_in_typescript/tree/master/abstract_factory)
 * [Factory Method](https://github.com/torokmark/design_patterns_in_typescript/tree/master/factory_method)
 * [Builder](https://github.com/torokmark/design_patterns_in_typescript/tree/master/builder)
