@@ -10,7 +10,7 @@ namespace Design_Patterns_in_CSharp.Singleton
 
         public static Singleton Instance()
         {
-            return singleton == null ? singleton = new Singleton() : singleton;
+            return singleton ?? (singleton = new Singleton());
         }
 
     }

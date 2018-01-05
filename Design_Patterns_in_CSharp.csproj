@@ -38,10 +38,13 @@
     <Compile Include="Strategy\Demo.cs" />
     <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Singleton\Demo.cs" />
+    <Compile Include="Adapter\Adapter.cs" />
+    <Compile Include="Adapter\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
     <Folder Include="Singleton\" />
+    <Folder Include="Adapter\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
