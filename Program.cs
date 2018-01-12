@@ -1,5 +1,4 @@
 ﻿using System;
-using Design_Patterns_in_CSharp.Command;
 
 
 namespace Design_Patterns_in_CSharp
@@ -8,8 +7,8 @@ namespace Design_Patterns_in_CSharp
     {
         public static void Main(string[] args)
         {
-            var DemoAdapter = new Demo();
-            DemoAdapter.Show();
+            var demo = new Demo();
+            demo.Show();
         }
     }
 }

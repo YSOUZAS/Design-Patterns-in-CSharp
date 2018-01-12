@@ -42,12 +42,15 @@
     <Compile Include="Adapter\Demo.cs" />
     <Compile Include="Command\Command.cs" />
     <Compile Include="Command\Demo.cs" />
+    <Compile Include="Visitor\Visitor.cs" />
+    <Compile Include="Visitor\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
     <Folder Include="Singleton\" />
     <Folder Include="Adapter\" />
     <Folder Include="Command\" />
+    <Folder Include="Visitor\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
