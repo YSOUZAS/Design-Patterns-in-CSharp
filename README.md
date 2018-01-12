@@ -37,5 +37,5 @@ Here are the implementations of the following design patterns in C# :
 * [Observer](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Observer)
 * [State](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/State)
 * [Strategy](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Strategy)
-* [Template Method](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Template_method)
-* [Visitor](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Visitor)-->
+* [Template Method](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Template_method)-->
+* [Visitor](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Visitor)
