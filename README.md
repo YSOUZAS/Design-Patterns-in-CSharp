@@ -7,9 +7,9 @@ Here are the implementations of the following design patterns in C# :
 ### Creational ###
 
 * [Singleton](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Singleton)
-<!--*
+
 * [Abstract Factory](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Abstract_factory)
-* [Factory Method](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Factory_method)
+<!--** [Factory Method](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Factory_method)
 * [Builder](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Builder)
 * [Prototype](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Prototype)-->
 

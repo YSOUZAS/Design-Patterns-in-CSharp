@@ -44,6 +44,8 @@
     <Compile Include="Command\Demo.cs" />
     <Compile Include="Visitor\Visitor.cs" />
     <Compile Include="Visitor\Demo.cs" />
+    <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="AbstractFactory\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -51,6 +53,7 @@
     <Folder Include="Adapter\" />
     <Folder Include="Command\" />
     <Folder Include="Visitor\" />
+    <Folder Include="AbstractFactory\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
