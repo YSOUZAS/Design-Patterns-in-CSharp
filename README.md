@@ -9,9 +9,8 @@ Here are the implementations of the following design patterns in C# :
 * [Singleton](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Singleton)
 * [Abstract Factory](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/AbstractFactory)
 * [Factory Method](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/FactoryMethod)
-<!--** [Builder](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Builder)
-* [Prototype](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Prototype)-->
-
+<!--** [Builder](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Builder)-->
+* [Prototype](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Prototype)
 
 ### Structural Patterns ###
 

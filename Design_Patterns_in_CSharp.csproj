@@ -50,6 +50,8 @@
     <Compile Include="FactoryMethod\Demo.cs" />
     <Compile Include="Interpreter\Interpreter.cs" />
     <Compile Include="Interpreter\Demo.cs" />
+    <Compile Include="Prototype\Prototype.cs" />
+    <Compile Include="Prototype\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -60,6 +62,7 @@
     <Folder Include="AbstractFactory\" />
     <Folder Include="FactoryMethod\" />
     <Folder Include="Interpreter\" />
+    <Folder Include="Prototype\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
