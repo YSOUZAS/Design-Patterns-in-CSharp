@@ -31,9 +31,9 @@ Here are the implementations of the following design patterns in C# :
 * [Interpreter](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Interpreter)
 * [Iterator](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Iterator)
 * [Mediator](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Mediator)
-* [Memento](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Memento)
+* [Memento](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Memento)-->
 * [Observer](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Observer)
-* [State](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/State)
+<!--* [State](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/State)
 * [Strategy](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Strategy)
 * [Template Method](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Template_method)-->
 * [Visitor](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Visitor)
