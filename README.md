@@ -15,9 +15,9 @@ Here are the implementations of the following design patterns in C# :
 ### Structural Patterns ###
 
 * [Adapter](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Adapter)
-<!-- * [Bridge](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Bridge)
+<!-- * [Bridge](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Bridge)-->
 * [Composite](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Composite)
-* [Decorator](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Decorator)
+<!-- * [Decorator](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Decorator)
 * [Facade](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Facade)
 * [Flyweight](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Flyweight)
 * [Proxy](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Proxy)-->
