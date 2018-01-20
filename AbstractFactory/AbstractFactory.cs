@@ -23,60 +23,36 @@ namespace Design_Patterns_in_CSharp.AbstractFactory
 
         public class ProductA1 : IAbstractProductA
         {
-            public string MethodA()
-            {
-                return "This is methodA of ProductA1";
-            }
+            public string MethodA() => "This is methodA of ProductA1";
         }
 
         public class ProductA2 : IAbstractProductA
         {
-            public string MethodA()
-            {
-                return "This is methodA of ProductA2";
-            }
+            public string MethodA() => "This is methodA of ProductA2";
         }
 
         public class ProductB1 : IAbstractProductB
         {
-            public int MethodB()
-            {
-                return 1;
-            }
+            public int MethodB() => 1;
         }
 
         public class ProductB2 : IAbstractProductB
         {
-            public int MethodB()
-            {
-                return 2;
-            }
+            public int MethodB() => 2;
         }
 
         public class ConcreteFactory1 : IAbstractFactory
         {
-            public IAbstractProductA CreatePorductA()
-            {
-                return new ProductA1();
-            }
+            public IAbstractProductA CreatePorductA() => new ProductA1();
 
-            public IAbstractProductB CreatePorductB()
-            {
-                return new ProductB1();
-            }
+            public IAbstractProductB CreatePorductB() => new ProductB1();
         }
 
         public class ConcreteFactory2 : IAbstractFactory
         {
-            public IAbstractProductA CreatePorductA()
-            {
-                return new ProductA2();
-            }
+            public IAbstractProductA CreatePorductA() => new ProductA2();
 
-            public IAbstractProductB CreatePorductB()
-            {
-                return new ProductB2();
-            }
+            public IAbstractProductB CreatePorductB() => new ProductB2();
         }
 
 

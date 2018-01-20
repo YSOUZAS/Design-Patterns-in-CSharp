@@ -4,7 +4,6 @@ namespace Design_Patterns_in_CSharp.Command
 {
     public abstract class Command
     {
-        public Command() { }
         public abstract void Execute();
     }
 
@@ -12,10 +11,7 @@ namespace Design_Patterns_in_CSharp.Command
     {
         private Receiver receiver;
 
-        public ConcreteCommand1(Receiver receiver)
-        {
-            this.receiver = receiver;
-        }
+        public ConcreteCommand1(Receiver receiver) => this.receiver = receiver;
 
         public override void Execute()
         {
@@ -28,10 +24,7 @@ namespace Design_Patterns_in_CSharp.Command
     {
         private Receiver receiver;
 
-        public ConcreteCommand2(Receiver receiver)
-        {
-            this.receiver = receiver;
-        }
+        public ConcreteCommand2(Receiver receiver) => this.receiver = receiver;
 
         public override void Execute()
         {
@@ -44,10 +37,7 @@ namespace Design_Patterns_in_CSharp.Command
     {
         private ICollection<Command> commands;
 
-        public Invoker()
-        {
-            this.commands = new LinkedList<Command>();
-        }
+        public Invoker() => this.commands = new LinkedList<Command>();
 
         public void StoreAndExecute(Command cmd)
         {
@@ -57,10 +47,7 @@ namespace Design_Patterns_in_CSharp.Command
     }
     public class Receiver
     {
-        public void Action()
-        {
-            Console.WriteLine("action is being called!");
-        }
+        public void Action() => Console.WriteLine("action is being called!");
     }
 
 

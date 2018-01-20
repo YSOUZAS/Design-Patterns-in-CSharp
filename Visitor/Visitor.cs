@@ -5,74 +5,58 @@ using System.Collections.Generic;
 namespace Design_Patterns_in_CSharp.Visitor
 {
 
-    public interface Element
+    public interface IElement
     {
-        void Operate(Visitor visitor);
+        void Operate(IVisitor visitor);
     }
 
-    public class ConcreteElement1 : Element
+    public class ConcreteElement1 : IElement
     {
-        public void Operate(Visitor visitor)
+        public void Operate(IVisitor visitor)
         {
             Console.WriteLine("`operate` of ConcreteElement1 is being called!");
             visitor.VisitConcreteElement1(this);
         }
     }
 
-    public class ConcreteElement2 : Element
+    public class ConcreteElement2 : IElement
     {
-        public void Operate(Visitor visitor)
+        public void Operate(IVisitor visitor)
         {
             Console.WriteLine("`operate` of ConcreteElement2 is being called!");
-            visitor.visitConcreteElement2(this);
+            visitor.VisitConcreteElement2(this);
         }
     }
 
-    public class ConcreteVisitor1 : Visitor
+    public class ConcreteVisitor1 : IVisitor
     {
-        public void VisitConcreteElement1(ConcreteElement1 concreteElement1)
-        {
-            Console.WriteLine("`visitConcreteElement1` of ConcreteVisitor1 is being called!");
-        }
+        public void VisitConcreteElement1(ConcreteElement1 concreteElement1) => Console.WriteLine("`visitConcreteElement1` of ConcreteVisitor1 is being called!");
 
-        public void visitConcreteElement2(ConcreteElement2 concreteElement2)
-        {
-            Console.WriteLine("`visitConcreteElement2` of ConcreteVisitor2 is being called!");
-        }
+        public void VisitConcreteElement2(ConcreteElement2 concreteElement2) => Console.WriteLine("`visitConcreteElement2` of ConcreteVisitor2 is being called!");
     }
 
-    public class ConcreteVisitor2 : Visitor
+    public class ConcreteVisitor2 : IVisitor
     {
-        public void VisitConcreteElement1(ConcreteElement1 concreteElement1)
-        {
-            Console.WriteLine("`visitConcreteElement1` of ConcreteVisitor1 is being called!");
-        }
+        public void VisitConcreteElement1(ConcreteElement1 concreteElement1) => Console.WriteLine("`visitConcreteElement1` of ConcreteVisitor1 is being called!");
 
-        public void visitConcreteElement2(ConcreteElement2 concreteElement2)
-        {
-            Console.WriteLine("`visitConcreteElement2` of ConcreteVisitor2 is being called!");
-        }
+        public void VisitConcreteElement2(ConcreteElement2 concreteElement2) => Console.WriteLine("`visitConcreteElement2` of ConcreteVisitor2 is being called!");
     }
 
-    public interface Visitor
+    public interface IVisitor
     {
         void VisitConcreteElement1(ConcreteElement1 concreteElement1);
-        void visitConcreteElement2(ConcreteElement2 concreteElement2);
+        void VisitConcreteElement2(ConcreteElement2 concreteElement2);
 
     }
 
     public class Objs{
-        private LinkedList<Element> elements = new LinkedList<Element>();
+        private LinkedList<IElement> elements = new LinkedList<IElement>();
 
-        public void attach(Element e){
-            this.elements.AddLast(e);
-        }
+        public void Attach(IElement e) => this.elements.AddLast(e);
 
-        public void detach(Element e){
-            this.elements.Remove(e);
-        }
+        public void Detach(IElement e) => this.elements.Remove(e);
 
-        public void Operate(Visitor visitor){
+        public void Operate(IVisitor visitor){
             foreach (var item in this.elements)
             {
                 item.Operate(visitor);

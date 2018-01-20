@@ -10,10 +10,7 @@ namespace Design_Patterns_in_CSharp.Adapter
 
     public class Adaptee
     {
-        public void method()
-        {
-            Console.WriteLine("`method` of Adaptee is being called");
-        }
+        public void Method() => Console.WriteLine("`method` of Adaptee is being called");
     }
 
 
@@ -23,7 +20,7 @@ namespace Design_Patterns_in_CSharp.Adapter
         {
             Console.WriteLine("Adapter's `call` method is being called");
             var adaptee = new Adaptee();
-            adaptee.method();
+            adaptee.Method();
         }
     }
 }

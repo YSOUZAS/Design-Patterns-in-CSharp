@@ -6,17 +6,17 @@ namespace Design_Patterns_in_CSharp.Interpreter
 
     }
 
-    public interface AbstractExpression
+    public interface IAbstractExpression
     {
         void Interpret(Context context);
     }
 
-    public class TerminalExpression : AbstractExpression
+    public class TerminalExpression : IAbstractExpression
     {
         public void Interpret(Context context) => Console.WriteLine("`interpret` method of TerminalExpression is being called!");
     }
 
-    public class NonterminalExpression : AbstractExpression
+    public class NonterminalExpression : IAbstractExpression
     {
         public void Interpret(Context context) => Console.WriteLine("`interpret` method of NonterminalExpression is being called!");
     }

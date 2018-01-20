@@ -26,10 +26,8 @@ namespace Design_Patterns_in_CSharp.Observer
 
         public void Notify()
         {
-
             foreach (var item in this.observers)
                 item.Notify();
-
         }
 
     }
