@@ -58,6 +58,8 @@
     <Compile Include="Observer\Demo.cs" />
     <Compile Include="Composite\Composite.cs" />
     <Compile Include="Composite\Demo.cs" />
+    <Compile Include="Facade\Facade.cs" />
+    <Compile Include="Facade\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -72,6 +74,7 @@
     <Folder Include="Builder\" />
     <Folder Include="Observer\" />
     <Folder Include="Composite\" />
+    <Folder Include="Facade\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

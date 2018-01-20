@@ -1,6 +1,7 @@
 ﻿using System;
 
 
+
 namespace Design_Patterns_in_CSharp
 {
     class MainClass

@@ -13,21 +13,21 @@ namespace Design_Patterns_in_CSharp.Prototype
     {
         public IPrototype Clone() => new Concrete1();
 
-        public string ToString() => "This is Concrete1";
+        public override string ToString() => "This is Concrete1";
     }
 
     public class Concrete2 : IPrototype
     {
         public IPrototype Clone() => new Concrete2();
 
-        public string ToString() => "This is Concrete2";
+        public override string ToString() => "This is Concrete2";
     }
 
     public class Concrete3 : IPrototype
     {
         public IPrototype Clone() => new Concrete3();
 
-        public string ToString() => "This is Concrete3";
+        public override string ToString() => "This is Concrete3";
     }
 
     public class Builder
