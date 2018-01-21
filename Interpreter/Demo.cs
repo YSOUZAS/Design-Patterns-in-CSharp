@@ -12,7 +12,7 @@ namespace Design_Patterns_in_CSharp.Interpreter
         {
 
             var context = new Context();
-            var list = new LinkedList<AbstractExpression>();
+            var list = new LinkedList<IAbstractExpression>();
 
             list.AddLast(new NonterminalExpression());
             list.AddLast(new NonterminalExpression());

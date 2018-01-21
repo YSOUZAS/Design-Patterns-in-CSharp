@@ -9,10 +9,7 @@ namespace Design_Patterns_in_CSharp.Builder
         private string phone;
         private string address;
 
-        public UserBuilder(string name)
-        {
-            this.name = name;
-        }
+        public UserBuilder(string name) => this.name = name;
 
         public User Build() => new User(this);
 

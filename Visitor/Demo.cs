@@ -10,8 +10,8 @@ namespace Design_Patterns_in_CSharp.Visitor
         public void Show()
         {
             var objs = new Objs();
-            objs.attach(new ConcreteElement1());
-            objs.attach(new ConcreteElement2());
+            objs.Attach(new ConcreteElement1());
+            objs.Attach(new ConcreteElement2());
 
             var v1 = new ConcreteVisitor1();
             var v2 = new ConcreteVisitor2();
