@@ -30,8 +30,8 @@ Here are the implementations of the following design patterns in C# :
 <!--* [Chain of Responsibility](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Chain_of_responsibility)
 * [Interpreter](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Interpreter)-->
 * [Iterator](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Iterator)
-<!--* [Mediator](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Mediator)
-* [Memento](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Memento)-->
+<!--* [Mediator](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Mediator)-->
+* [Memento](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Memento)
 * [Observer](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Observer)
 <!--* [State](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/State)
 * [Strategy](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Strategy)
