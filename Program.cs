@@ -1,5 +1,5 @@
 ﻿using System;
-using Design_Patterns_in_CSharp.Decorator;
+using Design_Patterns_in_CSharp.Flyweight;
 
 
 

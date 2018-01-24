@@ -68,6 +68,8 @@
     <Compile Include="Memento\Demo.cs" />
     <Compile Include="Decorator\Decorator.cs" />
     <Compile Include="Decorator\Demo.cs" />
+    <Compile Include="Flyweight\Flyweight.cs" />
+    <Compile Include="Flyweight\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -87,6 +89,7 @@
     <Folder Include="Bridge\" />
     <Folder Include="Memento\" />
     <Folder Include="Decorator\" />
+    <Folder Include="Flyweight\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
