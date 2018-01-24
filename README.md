@@ -20,7 +20,7 @@ Here are the implementations of the following design patterns in C# :
 * [Decorator](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Decorator)
 * [Facade](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Facade)
 * [Flyweight](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Flyweight)
-<!--* [Proxy](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Proxy)-->
+* [Proxy](https://github.com/YSOUZAS/Design-Patterns-in-CSharp/tree/master/Proxy)
 
 
 ### Behavioral Patterns ###
