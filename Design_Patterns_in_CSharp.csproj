@@ -70,6 +70,8 @@
     <Compile Include="Decorator\Demo.cs" />
     <Compile Include="Flyweight\Flyweight.cs" />
     <Compile Include="Flyweight\Demo.cs" />
+    <Compile Include="Proxy\Proxy.cs" />
+    <Compile Include="Proxy\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -90,6 +92,7 @@
     <Folder Include="Memento\" />
     <Folder Include="Decorator\" />
     <Folder Include="Flyweight\" />
+    <Folder Include="Proxy\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
