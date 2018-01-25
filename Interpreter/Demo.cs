@@ -10,7 +10,6 @@ namespace Design_Patterns_in_CSharp.Interpreter
 
         public void Show()
         {
-
             var context = new Context();
             var list = new LinkedList<IAbstractExpression>();
 
@@ -24,9 +23,8 @@ namespace Design_Patterns_in_CSharp.Interpreter
             list.AddLast(new TerminalExpression());
 
             foreach (var item in list)
-            {
                 item.Interpret(context);
-            }
+
         }
     }
 }
