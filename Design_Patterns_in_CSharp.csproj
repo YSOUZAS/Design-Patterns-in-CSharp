@@ -74,6 +74,8 @@
     <Compile Include="Proxy\Demo.cs" />
     <Compile Include="Mediator\Mediator.cs" />
     <Compile Include="Mediator\Demo.cs" />
+    <Compile Include="ChainOfResponsibility\ChainOfResponsibility.cs" />
+    <Compile Include="ChainOfResponsibility\Demo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Strategy\" />
@@ -96,6 +98,7 @@
     <Folder Include="Flyweight\" />
     <Folder Include="Proxy\" />
     <Folder Include="Mediator\" />
+    <Folder Include="ChainOfResponsibility\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
